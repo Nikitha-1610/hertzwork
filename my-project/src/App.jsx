@@ -26,7 +26,9 @@ function App() {
   />
 </div>
 
-<div className="bg-[#1d1d1f] h-[594px] w-[870px] rounded-tl-[24px] rounded-bl-[24px] ml-[auto] mr-0 mt-[50px]"></div>
+<div className="bg-[#1d1d1f] h-[594px] w-[870px] rounded-tl-[24px] rounded-bl-[24px] ml-[auto] mr-0 mt-[50px] overflow-hidden">
+  <div className="bg-orange-500 h-[260px] w-[260px] rounded-tl-[500px] rounded-bl-[500px] ml-[auto] mr-[-200px] mt-[50px]"></div>
+</div>
       </section>
   )
 }
