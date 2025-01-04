@@ -28,7 +28,64 @@ function App() {
 
 <div className="bg-[#1d1d1f] h-[594px] w-[870px] rounded-tl-[24px] rounded-bl-[24px] ml-[auto] mr-0 mt-[50px] overflow-hidden">
   <div className="bg-orange-500 h-[260px] w-[260px] rounded-tl-[500px] rounded-bl-[500px] ml-[auto] mr-[-200px] mt-[50px]"></div>
+  <img src="./src/assets/images/image.png" alt="mobile" className="h-[300px] w-[591] items-left justify-center"/>
+
 </div>
+
+<div className="mt-[80px] px-10">
+  <div className="flex justify-around text-left text-white gap-[20px] items-start ">
+    <div className="w-[300px]">
+      <h2 className="text-[22px] font-bold flex items-center gap-2">
+        <span className="icon">📋</span> Research & Discovery
+      </h2>
+      <hr className="border-t border-gray-500 mt-2 mb-4" />
+      <p className="text-gray-500 text-[16px] leading-[24px]">
+        We start by understanding your vision, target audience, and market trends. This ensures our designs align
+        with your goals and resonate with your users.
+      </p>
+    </div>
+    <div className="w-[300px]">
+      <h2 className="text-[22px] font-bold flex items-center gap-2">
+        <span className="icon">🔍</span> Ideation
+      </h2>
+      <hr className="border-t border-gray-500 mt-2 mb-4" />
+      <p className="text-gray-500 text-[16px] leading-[24px]">
+        Through brainstorming and wireframing, we create innovative concepts and layouts, focusing on
+        functionality, aesthetics, and user experience.
+      </p>
+    </div>
+    <div className="w-[300px]">
+      <h2 className="text-[22px] font-bold flex items-center gap-2">
+        <span className="icon"></span> Design & Prototyping
+      </h2>
+      <hr className="border-t border-gray-500 mt-2 mb-4" />
+      <p className="text-gray-500 text-[16px] leading-[24px]">
+        Our team transforms ideas into detailed, visually appealing designs. Interactive prototypes allow you to
+        experience the look and feel before finalization.
+      </p>
+    </div>
+    <div className="w-[300px]">
+      <h2 className="text-[22px] font-bold flex items-center gap-2">
+        <span className="icon">✅</span> Review & Refinement
+      </h2>
+      <hr className="border-t border-gray-500 mt-2 mb-4" />
+      <p className="text-gray-500 text-[16px] leading-[24px]">
+        We incorporate feedback and refine designs to perfection, ensuring the final product meets your
+        expectations and is ready for implementation.
+      </p>
+    </div>
+  </div>
+  <p className="text-center text-gray-500 text-[20px] px-[50px] leading-[30px] max-w-[1300px] mx-auto mt-9">
+  We specialize in developing products that not only meet user needs but exceed their expectations.
+  With a perfect balance of cutting-edge technology, thoughtful design, and unmatched functionality,
+  we craft solutions that people genuinely love to use. Our goal is to create experiences that are
+  intuitive, engaging, and leave a lasting impression, ensuring that every product we deliver
+  becomes an integral part of our users’ lives.
+</p>
+
+</div>
+
+
       </section>
   )
 }
