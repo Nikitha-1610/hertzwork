@@ -80,7 +80,7 @@ function App() {
   With a perfect balance of cutting-edge technology, thoughtful design, and unmatched functionality,
   we craft solutions that people genuinely love to use. Our goal is to create experiences that are
   intuitive, engaging, and leave a lasting impression, ensuring that every product we deliver
-  becomes an integral part of our users’ lives.
+  becomes an integral part of our users’ lives.strt
 </p>
 
 </div>
