@@ -7,7 +7,7 @@ function App() {
   return (
     <section className="bg-black h-scroll w-scroll flex items-center justify-center text-center flex-col overflow-hidden">
       <h1 className=" text-glow text-[50px] font-bold text-[#fe5d26] m-10">What We Do?</h1>
-      <p className="text-[36px] text-center mb-8" >
+      <p className="text-[36px] text-center mb-8 text-gray-100" >
         We Develop Products That People Love to Use.
       </p>
       <img className="h-[500px] w-[591] items-center justify-center" src='./src/assets/images/img1.png'/>
@@ -16,7 +16,7 @@ function App() {
         we craft solutions that people genuinely love to use. Our goal is to create experiences that are intuitive, 
         engaging, and leave a lasting impression, ensuring that every product we deliver becomes an integral part of 
         our users’ lives.</p>
-        <h1 className=" text-glow text-[50px] font-bold text-white-500 mb-4 flex flex-row mt-[147px]"><h1 className="text-[#fe5d26] underline">D</h1>esign Services</h1>
+        <h1 className=" text-glow text-[50px] font-bold text-gray-100 mb-4 flex flex-row mt-[147px]"><h1 className="text-[#fe5d26] underline">D</h1>esign Services</h1>
         <div className="flex gap-1 ml-0 mr-[auto] mt-[100px] p-10">
   <h1 className="text-[32px] font-bold text-white flex">In<span className="text-[#fe5d26] underline ml-2">M</span>obile Application</h1>
   <img
@@ -28,7 +28,7 @@ function App() {
 
 <div class="relative h-[594px] w-[870px] flex items-end rounded-tl-[24px] rounded-bl-[24px] mr-0 ml-[auto] bg-[#1d1d1f]">
   <div class="absolute top-1/4 right-0 transform translate-x-3/4 -translate-y-1/2">
-    <div class="w-[260px] h-[260px] bg-orange-500 rounded-full"></div>
+    <div class="w-[260px] h-[260px] bg-gradient-to-b from-[#7e3535] to-[#fe5d26] rounded-full"></div>
   </div>
  
   <div class="relative">
@@ -42,7 +42,7 @@ function App() {
   <div className="flex justify-around text-left text-white gap-[20px] items-start ">
     <div className="w-[300px]">
       <h2 className="text-[22px] font-bold flex items-center gap-2">
-        <span className="icon">📋</span> Research & Discovery
+        <span className="icon"><img src="./src/assets/images/research.svg" /></span> Research & Discovery
       </h2>
       <hr className="border-t border-gray-500 mt-2 mb-4" />
       <p className="text-gray-500 text-[16px] leading-[24px]">
@@ -52,7 +52,7 @@ function App() {
     </div>
     <div className="w-[300px]">
       <h2 className="text-[22px] font-bold flex items-center gap-2">
-        <span className="icon">🔍</span> Ideationkju
+        <span className="icon"><img src="./src/assets/images/search.svg" /></span> Ideation
       </h2>
       <hr className="border-t border-gray-500 mt-2 mb-4" />
       <p className="text-gray-500 text-[16px] leading-[24px]">
@@ -62,7 +62,7 @@ function App() {
     </div>
     <div className="w-[300px]">
       <h2 className="text-[22px] font-bold flex items-center gap-2">
-        <span className="icon"></span> Design & Prototyping
+        <span className="icon"><img src="./src/assets/images/paint.svg" /></span> Design & Prototyping
       </h2>
       <hr className="border-t border-gray-500 mt-2 mb-4" />
       <p className="text-gray-500 text-[16px] leading-[24px]">
@@ -72,7 +72,7 @@ function App() {
     </div>
     <div className="w-[300px]">
       <h2 className="text-[22px] font-bold flex items-center gap-2">
-        <span className="icon">✅</span> Review & Refinement
+        <span className="icon"><img src="./src/assets/images/review.svg" /></span> Review & Refinement
       </h2>
       <hr className="border-t border-gray-500 mt-2 mb-4" />
       <p className="text-gray-500 text-[16px] leading-[24px]">
@@ -91,9 +91,71 @@ function App() {
 <h1 className="text-[32px] font-bold text-white flex mt-8">In<span className="text-[#fe5d26] underline ml-2">W</span>eb Application</h1>
 <img className="h-[690.36px] w-[1210.36] t-[2620px] l-[500px] items-center justify-center" src='./src/assets/images/img4.png'/>
 
-<h1 className="text-center text-[28px] font-bold text-white flex mt-8"><span className="text-[#fe5d26] underline ml-2">T</span>ransform Your Digital Presence with Exceptional Website Design</h1>
 
 </div>
+<section className="bg-black flex flex-col items-center justify-center text-center text-white p-10">
+  <h1 className="text-[30px] font-semibold text-white mb-4">
+    <span className="text-[#fe5d26] underline ml-2">T</span>ransform Your Digital Presence with Exceptional Website Design
+  </h1>
+  <div className="flex gap-8 justify-start mt-8">
+  <div className="w-[270px] h-[125px] flex items-center justify-between border  border-neutral-400 rounded-3xl p-4 bg-black ">
+    <h2 className="text-[20px]  text-neutral-400 font-semibold">1. User-Centric Website Design</h2>
+    <span className="text-neutral-400 text-[24px] font-bold">➔</span>
+  </div>
+  <div className="w-[270px] h-[125px] flex items-center justify-between border  border-neutral-400 rounded-3xl p-4 bg-black">
+    <h2 className="text-[20px]  text-neutral-400 font-semibold">2. Custom Website Design</h2>
+    <span className="text-neutral-400 text-[24px] font-bold">➔</span>
+  </div>
+  <div className="w-[270px] h-[125px] flex items-center justify-between border  border-neutral-400 rounded-3xl p-4 bg-black">
+    <h2 className="text-[20px]  text-neutral-400 font-semibold">3. Responsive and Adaptive Layouts</h2>
+    <span className="text-neutral-400 text-[24px] font-bold">➔</span>
+  </div>
+  <div className=" w-[270px] h-[125px] flex items-center justify-between border  border-neutral-400 rounded-3xl p-4 bg-black">
+    <h2 className="text-[20px] text-neutral-400 font-semibold">4. Interactive Prototyping</h2>
+    <span className="text-neutral-400 text-[24px] font-bold">➔</span>
+  </div>
+  </div>
+</section>
+    <h1 class="text-5xl text-white font-semibold relative text-glow2 w-[724px] h-[74px] p-[50px] ">
+      Application Design Stages </h1>
+      
+
+
+
+  
+  <div class="grid grid-cols-3 gap-10 p-20">
+    
+    <div class="bg-black border-neutral-400 text-center w-[220px] h-[220px] border-[0.5px] p-[12px] gap-[34.5px]">
+      <img src="./src/assets/images/1.svg" alt="Analysis" class="w-[200px] h-[160.7px]  mx-auto"/>
+      <p class="font-bold size-[20px] mt-4 text-white w-[196px] h-[12px] ">Analysis</p>
+    </div>
+
+    <div class="bg-black  border-neutral-400 text-center w-[220px] h-[220px] border-[0.5px] p-[12px] gap-[34.5px]">
+      <img src="./src/assets/images/2.svg" alt="Design" class="w-[200px] h-[160.7px]  mx-auto"/>
+      <p class="font-bold size-[20px] mt-4 text-white w-[196px] h-[12px]">Design</p>
+    </div>
+
+    <div class="bg-black  border-neutral-400 text-center w-[220px] h-[220px] border-[0.5px] p-[12px] gap-[34.5px]">
+      <img src="./src/assets/images/3.svg" alt="Development" class="w-[200px] h-[160.7px]  mx-auto"/>
+      <p class="font-bold size-[20px] mt-4 text-white w-[196px] h-[12px]">Development</p>
+    </div>
+
+    <div class="bg-black  border-neutral-400 text-center w-[220px] h-[220px] border-[0.5px] p-[12px] gap-[34.5px]">
+      <img src="./src/assets/images/4.svg" alt="Testing" class="w-[200px] h-[160.7px]  mx-auto"/>
+      <p class="font-bold size-[20px] mt-4 text-white w-[196px] h-[12px]">Testing</p>
+    </div>
+
+    <div class="bg-black  border-neutral-400 text-center w-[220px] h-[220px] border-[0.5px] p-[12px] gap-[34.5px]">
+      <img src="./src/assets/images/5.svg" alt="Launching" class="w-[200px] h-[160.7px]  mx-auto"/>
+      <p class="font-bold size-[20px] mt-4 text-white w-[196px] h-[12px]">Launching</p>
+    </div>
+
+    <div class="bg-black  border-neutral-400 text-center w-[220px] h-[220px] border-[0.5px] p-[12px] gap-[34.5px]">
+      <img src="./src/assets/images/6.svg" alt="Support" class="w-[200px] h-[160.7px]  mx-auto"/>
+      <p class="font-bold size-[20px] mt-4 text-white w-[196px] h-[12px]">Support</p>
+    </div>
+  </div>
+
 
 
       </section>
