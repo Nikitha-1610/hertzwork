@@ -5,7 +5,7 @@ function App() {
   
 
   return (
-    <section className="bg-black h-scroll w-scroll flex items-center justify-center text-center flex-col overflow-visible">
+    <section className="bg-black h-scroll w-scroll flex items-center justify-center text-center flex-col overflow-hidden">
       <h1 className=" text-glow text-[50px] font-bold text-[#fe5d26] m-10">What We Do?</h1>
       <p className="text-[36px] text-center mb-8" >
         We Develop Products That People Love to Use.
@@ -26,11 +26,17 @@ function App() {
   />
 </div>
 
-<div className="bg-[#1d1d1f] h-[594px] w-[870px] rounded-tl-[24px] rounded-bl-[24px] ml-[auto] mr-0 mt-[50px] overflow-hidden">
-  <div className="bg-orange-500 h-[260px] w-[260px] rounded-tl-[500px] rounded-bl-[500px] ml-[auto] mr-[-200px] mt-[50px]"></div>
-  <img src="./src/assets/images/image.png" alt="mobile" className="h-[300px] w-[591] items-left justify-center"/>
-
+<div class="relative h-[594px] w-[870px] flex items-end rounded-tl-[24px] rounded-bl-[24px] mr-0 ml-[auto] bg-[#1d1d1f]">
+  <div class="absolute top-1/4 right-0 transform translate-x-3/4 -translate-y-1/2">
+    <div class="w-[260px] h-[260px] bg-orange-500 rounded-full"></div>
+  </div>
+ 
+  <div class="relative">
+    <img src="./src/assets/images/img3.png" alt="Phones" class="w-[820px] h-[458.75px] h-auto" />
+  </div>
 </div>
+
+
 
 <div className="mt-[80px] px-10">
   <div className="flex justify-around text-left text-white gap-[20px] items-start ">
@@ -82,6 +88,10 @@ function App() {
   intuitive, engaging, and leave a lasting impression, ensuring that every product we deliver
   becomes an integral part of our users’ lives.strt
 </p>
+<h1 className="text-[32px] font-bold text-white flex mt-8">In<span className="text-[#fe5d26] underline ml-2">W</span>eb Application</h1>
+<img className="h-[690.36px] w-[1210.36] t-[2620px] l-[500px] items-center justify-center" src='./src/assets/images/img4.png'/>
+
+<h1 className="text-center text-[28px] font-bold text-white flex mt-8"><span className="text-[#fe5d26] underline ml-2">T</span>ransform Your Digital Presence with Exceptional Website Design</h1>
 
 </div>
 
