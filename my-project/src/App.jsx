@@ -52,7 +52,7 @@ function App() {
     </div>
     <div className="w-[300px]">
       <h2 className="text-[22px] font-bold flex items-center gap-2">
-        <span className="icon">🔍</span> Ideation
+        <span className="icon">🔍</span> Ideationkju
       </h2>
       <hr className="border-t border-gray-500 mt-2 mb-4" />
       <p className="text-gray-500 text-[16px] leading-[24px]">
