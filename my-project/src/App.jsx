@@ -46,7 +46,7 @@ function App() {
     </div>
     <div className="w-[300px]">
       <h2 className="text-[22px] font-bold flex items-center gap-2">
-        <span className="icon">🔍</span> Ideation
+        <span className="icon">🔍</span> Ideationkju
       </h2>
       <hr className="border-t border-gray-500 mt-2 mb-4" />
       <p className="text-gray-500 text-[16px] leading-[24px]">
@@ -82,7 +82,13 @@ function App() {
   intuitive, engaging, and leave a lasting impression, ensuring that every product we deliver
   becomes an integral part of our users’ lives.strt
 </p>
-
+<p className="text-center text-gray-500 text-[20px] px-[50px] leading-[30px] max-w-[1300px] mx-auto mt-9">
+  We specialize in developing products that not only meet user needs but exceed their expectations.
+  With a perfect balance of cutting-edge technology, thoughtful design, and unmatched functionality,
+  we craft solutions that people genuinely love to use. Our goal is to create experiences that are
+  intuitive, engaging, and leave a lasting impression, ensuring that every product we deliver
+  becomes an integral part of our users’ lives.strt
+</p>
 </div>
 
 
